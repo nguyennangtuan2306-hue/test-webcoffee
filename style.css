@@ -1706,34 +1706,11 @@ img {
     border: 1px solid var(--color-gold);
 }
 
-.pricing-title {
-    font-family: var(--font-serif);
-    font-size: 1.35rem;
-    font-weight: 700;
-    color: var(--color-primary-green);
-    margin-bottom: 12px;
-}
 
-.pricing-fee {
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 2.2rem;
-    font-weight: 800 !important;
-    color: #C89D66 !important;
-    font-variant-numeric: normal !important;
-    letter-spacing: -0.02em !important;
-    margin-bottom: 20px;
-    line-height: 1;
-    display: flex;
-    align-items: baseline;
-    gap: 6px;
-}
 
-.pricing-fee span {
-    font-family: 'Montserrat', sans-serif !important;
-    font-weight: 500 !important;
-    font-size: 14px !important;
-    color: #6B7280 !important;
-}
+
+
+
 
 .pricing-features-list {
     margin-bottom: 30px;
@@ -2905,12 +2882,7 @@ img {
     line-height: 1.35 !important;
 }
 
-.pricing-title {
-    font-family: 'Cormorant Garamond', serif !important;
-    font-weight: 700 !important;
-    font-size: 1.4rem !important;
-    color: #1E3932 !important;
-}
+
 
 /* 3. Toàn bộ mô tả, gói chi phí, bảng dự toán và con số: Plus Jakarta Sans */
 .benefit-card p,
@@ -2936,16 +2908,39 @@ img {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
 }
 
-.pricing-fee {
+
+
+
+
+.process-10-num {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
-    font-size: 2.2rem !important;
-    font-weight: 800 !important;
+    font-weight: 700 !important;
     color: #C89D66 !important;
     font-variant-numeric: normal !important;
-    letter-spacing: -0.02em !important;
+}
+
+
+.pricing-title {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    color: #1E3932 !important;
+    margin-bottom: 14px !important;
+    letter-spacing: 0.2px !important;
+}
+
+.pricing-fee {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 2.25rem !important;
+    font-weight: 800 !important;
+    color: #C0904D !important;
+    font-variant-numeric: normal !important;
+    letter-spacing: -0.025em !important;
+    margin-bottom: 20px !important;
+    line-height: 1 !important;
     display: flex !important;
     align-items: baseline !important;
-    gap: 6px !important;
+    gap: 8px !important;
 }
 
 .pricing-fee span {
@@ -2953,11 +2948,4 @@ img {
     font-weight: 500 !important;
     font-size: 14px !important;
     color: #6B7280 !important;
-}
-
-.process-10-num {
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
-    font-weight: 700 !important;
-    color: #C89D66 !important;
-    font-variant-numeric: normal !important;
 }
