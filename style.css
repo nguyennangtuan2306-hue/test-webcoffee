@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@600;700&family=Plus+Jakarta+Sans:wght@400;500;600&display=swap');
 /* ==========================================================================
    HEAVEN - "trà ngon biết nói"
    Official Brand Design System & Stylesheet
@@ -2777,4 +2778,46 @@ img {
         white-space: nowrap !important;
         box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3) !important;
     }
+}
+
+
+/* ==========================================================================
+   Branch Card Typography & Styling
+   ========================================================================== */
+
+/* 2. Tiêu đề các thẻ cơ sở (Cơ sở I, Cơ sở II, ...) */
+.branch-card h3,
+.branch-card .branch-title,
+.branch-card h4,
+.system-branch-card h3 {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 1.35rem !important;
+    font-weight: 700 !important;
+    color: #1b382b !important;
+    letter-spacing: 0.3px !important;
+}
+
+/* 3. Địa chỉ và số điện thoại chi tiết */
+.branch-card p,
+.branch-card .branch-address,
+.branch-card .branch-phone,
+.branch-card .branch-hotline,
+.branch-card span:not(.branch-tag) {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 0.88rem !important;
+    color: #4a5568 !important;
+    line-height: 1.5;
+}
+
+/* 4. Các thẻ tag tiện ích (Hồ cá Koi, Đỗ ô tô, Căn góc...) */
+.branch-card .branch-tag,
+.branch-card .tag-item,
+.branch-card .badge {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 0.78rem !important;
+    font-weight: 500 !important;
+    background-color: #f2f5ed !important;
+    color: #2d4a3e !important;
+    border-radius: 6px !important;
+    padding: 4px 10px !important;
 }
