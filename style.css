@@ -1729,48 +1729,7 @@ img {
     color: var(--color-sage);
 }
 
-/* 10 Steps Process */
-.process-10-grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 16px;
-    margin-top: 40px;
-}
 
-.process-10-card {
-    background: #FFFFFF;
-    border: 1px solid rgba(212, 163, 115, 0.3);
-    border-radius: 12px;
-    padding: 24px 16px;
-    text-align: center;
-    box-shadow: 0 4px 15px rgba(24, 61, 43, 0.04);
-}
-
-.process-10-num {
-    display: inline-block;
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 1.25rem;
-    font-weight: 700 !important;
-    color: #C89D66 !important;
-    font-variant-numeric: normal !important;
-    margin-bottom: 8px;
-}
-
-.process-10-card h4 {
-    font-family: 'Montserrat', sans-serif !important;
-    font-size: 16px !important;
-    font-weight: 700 !important;
-    color: #1E3932 !important;
-    letter-spacing: -0.01em !important;
-    margin-bottom: 6px;
-    line-height: 1.4;
-}
-
-.process-10-card p {
-    font-size: 0.8rem;
-    color: var(--color-text-muted);
-    line-height: 1.4;
-}
 
 /* Footer */
 .site-footer {
@@ -1895,9 +1854,7 @@ img {
         grid-template-columns: repeat(2, 1fr);
     }
 
-    .process-10-grid {
-        grid-template-columns: repeat(3, 1fr);
-    }
+    
 
     .branches-grid {
         grid-template-columns: repeat(2, 1fr);
@@ -1980,9 +1937,7 @@ img {
         padding: 35px 20px;
     }
 
-    .process-10-grid {
-        grid-template-columns: 1fr 1fr;
-    }
+    
 }
 
 @media (max-width: 580px) {
@@ -2038,9 +1993,7 @@ img {
         gap: 10px;
     }
 
-    .process-10-grid {
-        grid-template-columns: 1fr;
-    }
+    
 }
 
 /* ==========================================================================
@@ -2872,15 +2825,7 @@ img {
     margin-bottom: 10px !important;
 }
 
-.process-10-card h4 {
-    font-family: 'Cormorant Garamond', serif !important;
-    font-weight: 700 !important;
-    font-size: 1.12rem !important;
-    color: #1E3932 !important;
-    letter-spacing: 0.2px !important;
-    margin-bottom: 6px !important;
-    line-height: 1.35 !important;
-}
+
 
 
 
@@ -2912,12 +2857,7 @@ img {
 
 
 
-.process-10-num {
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
-    font-weight: 700 !important;
-    color: #C89D66 !important;
-    font-variant-numeric: normal !important;
-}
+
 
 
 .pricing-title {
@@ -3108,4 +3048,60 @@ img {
     font-size: 1rem;
     margin-top: 3px;
     flex-shrink: 0;
+}
+
+
+/* 10 Steps Process */
+.process-10-grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 16px;
+    margin-top: 40px;
+}
+
+.process-10-card {
+    background: #FFFFFF;
+    border: 1px solid rgba(212, 163, 115, 0.3);
+    border-radius: 14px;
+    padding: 24px 10px;
+    text-align: center;
+    box-shadow: 0 4px 15px rgba(24, 61, 43, 0.04);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    transition: var(--transition-smooth);
+}
+
+.process-10-card:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 10px 25px rgba(24, 61, 43, 0.08);
+    border-color: var(--color-sand-gold);
+}
+
+.process-10-num {
+    display: inline-block;
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 1.25rem !important;
+    font-weight: 700 !important;
+    color: #C89D66 !important;
+    font-variant-numeric: normal !important;
+    margin-bottom: 8px !important;
+}
+
+.process-10-card h4 {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 1.15rem !important;
+    font-weight: 700 !important;
+    color: #1B382B !important;
+    margin-bottom: 8px !important;
+    line-height: 1.25 !important;
+    text-wrap: balance !important;
+    letter-spacing: 0.1px !important;
+}
+
+.process-10-card p {
+    font-family: 'Plus Jakarta Sans', sans-serif !important;
+    font-size: 0.82rem !important;
+    color: #5C6961 !important;
+    line-height: 1.5 !important;
 }
