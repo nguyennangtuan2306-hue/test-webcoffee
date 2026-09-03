@@ -1,0 +1,16 @@
+# Archives & Temporary files
+*.zip
+*.tar.gz
+*.rar
+
+# Data extractions & logs
+extracted_doc.txt
+extracted_media/
+*.log
+
+# OS / Editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+scratch/
