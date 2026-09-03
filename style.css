@@ -2860,14 +2860,7 @@ img {
 
 
 
-.pricing-title {
-    font-family: 'Cormorant Garamond', serif !important;
-    font-size: 1.4rem !important;
-    font-weight: 700 !important;
-    color: #1E3932 !important;
-    margin-bottom: 14px !important;
-    letter-spacing: 0.2px !important;
-}
+
 
 .pricing-fee {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
@@ -2899,16 +2892,7 @@ img {
     margin-bottom: 22px;
 }
 
-.pricing-title {
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
-    font-size: 1rem !important;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
-    color: #1B382B !important;
-    letter-spacing: 1.5px !important;
-    margin-bottom: 12px !important;
-    text-align: center !important;
-}
+
 
 .pricing-fee {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
@@ -2991,16 +2975,7 @@ img {
     margin-bottom: 24px;
 }
 
-.pricing-title {
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
-    font-size: 1.05rem !important;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
-    color: #1B382B !important;
-    letter-spacing: 1.5px !important;
-    margin-bottom: 14px !important;
-    text-align: center !important;
-}
+
 
 .pricing-fee {
     font-family: 'Plus Jakarta Sans', sans-serif !important;
@@ -3108,17 +3083,7 @@ img {
 
 
 /* Emergency Fix for Pricing & Process Cards */
-.pricing-title {
-    font-family: 'Plus Jakarta Sans', sans-serif !important;
-    font-size: 0.95rem !important;
-    font-weight: 700 !important;
-    text-transform: uppercase !important;
-    color: #1B382B !important;
-    letter-spacing: 0.5px !important;
-    line-height: 1.35 !important;
-    margin-bottom: 12px !important;
-    text-align: center !important;
-}
+
 
 .pricing-fee {
     margin: 10px 0 4px 0 !important;
@@ -3159,4 +3124,17 @@ img {
     line-height: 1.25 !important;
     text-wrap: balance !important;
     letter-spacing: 0.1px !important;
+}
+
+
+.pricing-title {
+    font-family: 'Cormorant Garamond', serif !important;
+    font-size: 1.35rem !important;
+    font-weight: 700 !important;
+    text-transform: none !important;
+    color: #1B382B !important;
+    letter-spacing: 0.2px !important;
+    line-height: 1.3 !important;
+    margin-bottom: 12px !important;
+    text-align: center !important;
 }
