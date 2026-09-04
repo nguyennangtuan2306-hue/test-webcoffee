@@ -3429,3 +3429,46 @@ img {
         right: 10px !important;
     }
 }
+
+
+/* Hero Banner Quicksand Styles */
+.hero-line-1 {
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: clamp(1.8rem, 4vw, 3rem) !important;
+    font-weight: 700 !important;
+    color: #FFFFFF !important;
+    text-transform: uppercase !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6) !important;
+    margin-bottom: 12px !important;
+    text-align: center !important;
+    opacity: 1 !important;
+    transform: none !important;
+    display: block !important;
+}
+
+.hero-line-2 {
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: clamp(1.2rem, 2.5vw, 1.6rem) !important;
+    font-weight: 600 !important;
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6) !important;
+    margin-bottom: 12px !important;
+    text-align: center !important;
+    opacity: 1 !important;
+    transform: none !important;
+    display: block !important;
+}
+
+.hero-line-3 {
+    font-family: 'Quicksand', sans-serif !important;
+    font-size: clamp(0.9rem, 1.6vw, 1.05rem) !important;
+    font-weight: 500 !important;
+    color: #FFFFFF !important;
+    text-shadow: 0 2px 8px rgba(0, 0, 0, 0.6) !important;
+    max-width: 800px !important;
+    margin: 0 auto 24px !important;
+    text-align: center !important;
+    opacity: 1 !important;
+    transform: none !important;
+    display: block !important;
+}
